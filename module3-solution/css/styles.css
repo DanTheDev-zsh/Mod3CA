@@ -1,0 +1,129 @@
+body {
+  font-size: 16px;
+  background-color: white;
+}
+
+#header-nav {
+  background-color: pink;
+  border-radius: 0;
+  border: 0;
+}
+
+.navbar-brand {
+  padding-top: 25px;
+}
+
+.navbar-brand h1 {
+  font-family: 'Lora', serif;
+  color: black;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 0.75;
+}
+
+.navbar-header {
+  min-height: 100px;
+}
+
+.navbar-brand {
+  vertical-align: middle;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+div.a {
+  background-color: dimgray;
+  color: white;
+  margin-top: 16px;
+  margin-left: 10%;
+  margin-right: 10%;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+div.b {
+  background-color: skyblue;
+  margin-top: 16px;
+  margin-left: 10%;
+  margin-right: 10%;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+div.c {
+  background-color: #ffe5b4;
+  margin-top: 16px;
+  margin-left: 10%;
+  margin-right: 10%;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+div.clear {
+  float: right;
+  clear: top;
+  box-sizing: border-box;
+}
+
+center.big {
+  font-size: 22px;
+}
+
+.tall {
+  height: 1000px;
+}
+
+.gray-and-middle {
+  text-align: center;
+  background-color: gray;
+  color: white !important;
+}
+
+.blue-and-middle {
+  text-align: center;
+  background-color: skyblue;
+  color: black !important;
+}
+
+.yellow-and-middle {
+  text-align: center;
+  background-color: #ffe5b4;
+  color: black !important;
+}
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+  .navbar-header {
+    min-height: 70px;
+  }
+}
+
+
+
+#myBtn {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: red; /* Set a background color */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 10px; /* Rounded corners */
+  font-size: 18px; /* Increase font size */
+}
+
+#myBtn:hover {
+  background-color: #555; /* Add a dark-grey background on hover */
+}
