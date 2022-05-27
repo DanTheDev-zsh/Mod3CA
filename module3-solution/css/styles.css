@@ -25,24 +25,26 @@ body {
   line-height: 0.75;
 }
 
+.navbar-header {
+  min-height: 100px;
+}
+
+.navbar-brand {
+  vertical-align: middle;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
 .navbar-brand a:hover, .navbar-brand a:focus {
   text-decoration: none;
-}
-
-ul {
-  float: right !important;
-}
-
-div.keepright {
-  float: right !important;
 }
 
 div.a {
   background-color: dimgray;
   color: white;
   margin-top: 16px;
-  margin-left: 60px;
-  margin-right: 60px;
+  margin-left: 10%;
+  margin-right: 10%;
   padding-left: 16px;
   padding-right: 16px;
 }
@@ -50,42 +52,61 @@ div.a {
 div.b {
   background-color: skyblue;
   margin-top: 16px;
-  margin-left: 60px;
-  margin-right: 60px;
+  margin-left: 10%;
+  margin-right: 10%;
   padding-left: 16px;
   padding-right: 16px;
 }
 
 div.c {
-  background-color: yellow;
+  background-color: #ffe5b4;
   margin-top: 16px;
-  margin-left: 60px;
-  margin-right: 60px;
+  margin-left: 10%;
+  margin-right: 10%;
   padding-left: 16px;
   padding-right: 16px;
+}
+
+div.clear {
+  float: right;
+  clear: top;
+  box-sizing: border-box;
 }
 
 center.big {
   font-size: 22px;
 }
+
 .tall {
   height: 1000px;
 }
 
+.gray-and-middle {
+  text-align: center;
+  background-color: gray;
+  color: white !important;
+}
+
+.blue-and-middle {
+  text-align: center;
+  background-color: skyblue;
+  color: black !important;
+}
+
+.yellow-and-middle {
+  text-align: center;
+  background-color: #ffe5b4;
+  color: black !important;
+}
+
 /* Small devices (tablets, 768px and up) */
-@media (min-width: @screen-sm-min) { 
-
+@media (min-width: 768px) { 
+  .navbar-header {
+    min-height: 70px;
+  }
 }
 
-/* Medium devices (desktops, 992px and up) */
-@media (min-width: @screen-md-min) { 
 
-}
-
-/* Large devices (large desktops, 1200px and up) */
-@media (min-width: @screen-lg-min) { 
-
-}
 
 #myBtn {
   display: none; /* Hidden by default */
